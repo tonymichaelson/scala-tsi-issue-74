@@ -1,6 +1,6 @@
 package models
 
-case class MapModeDuplicateExport(
+case class FunkyMapModeDuplicateExport(
   mode: FunkyMapMode
 ) 
 
