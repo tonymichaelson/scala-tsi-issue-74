@@ -13,7 +13,7 @@ lazy val root = (project in file("."))
     // Include the package(s) of the classes here, and make sure to import your typescript conversions
     typescriptGenerationImports := Seq("models.TypescriptExports._", "models.MapMode", "models.FunkyMapMode", "models.CaseClass", "models.FunkyMapModeDuplicateExport"),
     // The classes that you want to generate typescript interfaces for
-    typescriptClassesToGenerateFor := Seq("FunkyMapMode", "CaseClass"),
+    typescriptClassesToGenerateFor := Seq("FunkyMapMode", "CaseClass", "FunkyMapModeDuplicateExport"),
     // The output file which will contain the typescript interfaces
     typescriptOutputFile := baseDirectory.value / "models.ts"
   )
