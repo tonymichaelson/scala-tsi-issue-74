@@ -1,2 +1,2 @@
-# nlcodestare-issue-74
+# scalatsi-issue-74
 demonstrating issue exporting enums to typescript
