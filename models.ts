@@ -1,4 +1,4 @@
-export type FunkyMapMode = (IMAP | ILIST | IDOCUMENT)
+export type FunkyMapMode = (IDOCUMENT | ILIST | IMAP)
 
 export interface ICaseClass {
   mode: MapMode
