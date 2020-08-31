@@ -4,7 +4,6 @@ import com.scalatsi.TypescriptType.{TSLiteralString, TSUnion}
 import com.scalatsi._
 
 object TypescriptExports extends DefaultTSTypes {
-  // maps
   def enumTsType[E <: enumeratum.EnumEntry, AllValues <: enumeratum.Enum[E]: Manifest](enum: AllValues)(
     implicit m: Manifest[AllValues]): TSNamedType[E] =
     TSType.alias[E](
